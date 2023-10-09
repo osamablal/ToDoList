@@ -1,0 +1,119 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0b0919;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 30px;
+  background-image: linear-gradient(to top, #0b0919, rgba(255, 255, 255, 0.3));
+}
+.task {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(61, 90, 162, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px 20px;
+  border-bottom: 3px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.icon {
+  font-size: 24px;
+}
+p {
+  font-size: 26px;
+}
+.icon-star-full,
+.icon-bin {
+  font-size: 27px;
+  opacity: 0.4;
+}
+.icon-star-full:hover {
+  color: orange;
+  opacity: 1;
+  font-size: 29px;
+}
+.icon-bin:hover {
+  color: #702020;
+  opacity: 1;
+}
+.icon-bin {
+  margin-right: 10px;
+}
+.icon:hover {
+  font-size: 24px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.icon-angry2 {
+  font-size: 24px;
+  color: yellow;
+}
+.icon-heart:hover {
+  color: red;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+form {
+  text-align: center;
+  margin-bottom: 50px;
+}
+input {
+  padding: 10px 20px;
+  border-radius: 6px;
+  width: 35vw;
+  font-size: 21px;
+  text-align: center;
+}
+button {
+  all: unset;
+}
+.icon-upload2 {
+  font-size: 35px;
+  color: #fff;
+  position: relative;
+  top: 9px;
+  margin-left: 17px;
+}
+.icon-upload2:hover {
+  font-size: 43px;
+  transition: 0.2s;
+  color: #34afab;
+}
+.dn {
+    display: none;
+}
+.icon-heart {
+    font-size: 23px;
+    color: red;
+}
+.icon-heart:hover {
+    font-size: 25px;
+    transition: 0.2s;
+}
+.finish {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+}
+.orange{
+    color: orange;
+    opacity: 1;
+}
